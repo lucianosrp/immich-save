@@ -1,19 +1,19 @@
 > ⚠️ This project is still WIP
 
 # Immich-save
-Load/Save your albums and favorites assets from/to a convinent text file.
+Load/Save your albums and favorites assets from/to a convinient text file.
 
 ## Reasoning 
-Immich already provides a good way to make backups and transision libraries and the database.
-However, you may still want to have a file that can recreate albums and "re-fav" your assets easily for when things go wrong (e.g. Database becomes impotabible, broken assets, etc.)
+Immich already provides a good way to make backups and transition libraries and the database.
+However, you may still want to have a file that can recreate albums and "re-fav" your assets easily for when things go wrong (e.g. Database becomes incompatible, broken assets, etc.)
 
-The philosophy should be that, if you always have a digital copy of your files, you should always be able to recreate albums and favorites.
+The philosophy should be that, if you always have a digital copy of your files, you should always be able to recreate albums and favourites.
 
 Immich-save provides a simple solution for this. 
-It stores all the instructions in a convinient yaml file. 
-When you reaload your assets into a new version of immich, or you are simply loading them for the first time, you can "load" the savefile into immich and recreate albums and favs.
+It stores all the instructions in a convenient yaml file. 
+When you reload your assets into a new version of immich, or you are simply loading them for the first time, you can "load" the savefile into immich and recreate albums and favs.
 
-Ideally, the long-term goal for immich-save would be to export albums and favorites from other media apps such as Gphotos, Prisma into the same common file format to facilitate transistions and sync across services.
+Ideally, the long-term goal for immich-save would be to export albums and favourites from other media apps such as Gphotos, Prisma into the same common file format to facilitate transitions and sync across services.
 
 ## Running immich-save
 ### Build from source
